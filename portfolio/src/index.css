@@ -2,24 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.tab-unactive {
+#root {
+  color: white;
+}
+
+
+.tabs {
   text-align: center;
-  width: 50%;
-  font-size: 20px;
   cursor: pointer;
-  opacity: 0.6;
-  background: white;
-  border: 0;
-  border-radius: 5%;
+  background: black;
+  width: 50%;
+  height: 3em;
 }
 
 .tab-active {
-  text-align: center;
-  width: 50%;
-  font-size: 20px;
-  cursor: pointer;
-  color: blue;
-  background: white;
-  border: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+  opacity: 90%;
 }
